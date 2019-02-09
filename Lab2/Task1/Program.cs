@@ -9,18 +9,17 @@ namespace Task1
 {
     class Program
     {
-        int cnt = 0;
-        static int IsPal(string s, , int i, int n)
+        static bool IsPal(string s)
         {
-            if (n < 0) return cnt;
-            if (s[i] = !s[n]) return cnt;
-            else
+            int i = 0;
+            int j = s.Length - 1;
+            while (i < j)
             {
+                if (s[i] != s[j]) return false;
                 i++;
-                n--;
-                cnt++;
-                return IsPal(string s);
+                j--;
             }
+            return true;
         }
         static void Main(string[] args)
         {
@@ -29,8 +28,9 @@ namespace Task1
             string s = sr.ReadLine();
             sr.Close();
             fs.Close();
-            if 
-            Console.Write("Yes");
+            if (IsPal(s)) Console.Write("Yes");
+            else Console.Write("No");
+            Console.WriteLine();
         }
     }
 }
