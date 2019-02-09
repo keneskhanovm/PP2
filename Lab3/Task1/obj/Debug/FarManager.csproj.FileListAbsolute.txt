@@ -1,0 +1,7 @@
+C:\Users\kenes\source\repos\Lab3\Task1\bin\Debug\Task1.exe.config
+C:\Users\kenes\source\repos\Lab3\Task1\bin\Debug\Task1.exe
+C:\Users\kenes\source\repos\Lab3\Task1\bin\Debug\Task1.pdb
+C:\Users\kenes\source\repos\Lab3\Task1\obj\Debug\FarManager.csprojAssemblyReference.cache
+C:\Users\kenes\source\repos\Lab3\Task1\obj\Debug\FarManager.csproj.CoreCompileInputs.cache
+C:\Users\kenes\source\repos\Lab3\Task1\obj\Debug\Task1.exe
+C:\Users\kenes\source\repos\Lab3\Task1\obj\Debug\Task1.pdb
