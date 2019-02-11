@@ -8,31 +8,26 @@ namespace Task2
 {
     class Student
     {
-        public string name;
-        public string id;
-        public Student(string name, string id)
+        string name;
+        string id;
+        string year;
+        public Student(string n, string i, string y)
         {
-            this.name = name;
-            this.id = id;
-        }
-        public Student()
-        {
-            name = Console.ReadLine();
-            id = Console.ReadLine();
+            name = n;
+            id = i;
+            year = y;
         }
         public void PrintInfo()
         {
-            Console.WriteLine(name);
-            Console.WriteLine(id);
+            Console.WriteLine(name + " " + id + " " + year);
         }
     }
     class Program
     {
         static void Main(string[] args)
         {
-            Student student = new Student();
-            student.PrintInfo();
+            Student s = new Student("Madiyar","18BD111169","2018");
+            s.PrintInfo();
         }
     }
-
 }

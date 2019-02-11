@@ -24,7 +24,7 @@ namespace Task3
 
         static void Main(string[] args)
         {
-            string s = @"C:\Users\kenes\Desktop\C#";
+            string s = @"C:\Users\kenes\Downloads";
             Tree(s, 0);
             Console.ReadKey();
         }

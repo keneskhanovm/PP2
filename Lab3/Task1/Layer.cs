@@ -36,7 +36,14 @@ namespace FarManager
                 {
                     Console.BackgroundColor = ConsoleColor.Black;
                 }
-                Console.WriteLine(Content[i].Name);
+                if (Content[i].GetType() == typeof(DirectoryInfo))
+                {
+                    Console.ForegroundColor = ConsoleColor.White;
+                } else
+                {
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                }
+                Console.WriteLine((i+1)+ ". " + Content[i].Name);
             }
         }
     }
