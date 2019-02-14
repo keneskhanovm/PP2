@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace Task2
 {
-    class Student
+    class Student //creating new class
     {
-        string name;
+        string name; //arguments
         string id;
         string year;
-        public Student(string n, string i, string y)
+        public Student(string n, string i, string y) //constructor that takes 3 arguments
         {
             name = n;
             id = i;
             year = y;
         }
-        public void PrintInfo()
+        public void PrintInfo() //method for printing output
         {
             Console.WriteLine(name + " " + id + " " + year);
         }
@@ -26,8 +26,8 @@ namespace Task2
     {
         static void Main(string[] args)
         {
-            Student s = new Student("Madiyar","18BD111169","2018");
-            s.PrintInfo();
+            Student s = new Student("Madiyar","18BD111169","2018"); //creating new object
+            s.PrintInfo(); //calling method
         }
     }
 }

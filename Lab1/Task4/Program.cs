@@ -10,9 +10,9 @@ namespace Task4
     {
         static void Main(string[] args)
         {
-            int a = int.Parse(Console.ReadLine());
-            for (int i = 1; i <= a; i++)
-            {
+            int a = int.Parse(Console.ReadLine()); //read the input from console
+            for (int i = 1; i <= a; i++) 
+            { //double loop
                 for (int j = 1; j <= i; j++)
                 {
                     Console.Write("[*]");
